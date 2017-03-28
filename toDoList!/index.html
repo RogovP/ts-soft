@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://code.jquery.com/jquery-2.1.4.js"></script>
+  
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>JS Bin</title>
+</head>
+<body>
+<div class="container">
+    <header>
+      todos
+    </header>
+  <div class="formContainer">
+        <form class="taskEntryForm">
+            <input id="taskInput" placeholder="Что нужно сделать?" />
+            </form>
+            </div>
+            <div class="divUl">
+                <ul class="taskList">
+
+                </ul>
+                </div>
+                <div class="buttons">
+                    <a href="#" id="alls" onclick="alls()"> Все </a>
+                    <a href="#" id="active" onclick="active()"> Активные </a>
+                    <a href="#" id="end" onclick="end()"> Завершенные </a>
+                    </div>
+                    <div id="divDeleteEnd"><button onclick="deleteChecked()" id="deleteEnd">Удалить <br>завершенные  </button>
+                    </div>
+</div>
+</body>
+</html>

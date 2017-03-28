@@ -1,0 +1,86 @@
+
+.container {
+  margin-left:200px;
+  margin-top:30px;
+  width:500px;
+  height:400px;
+  background:#efefef;
+}
+header {
+  text-align:center;
+  color: #ead7d7;
+  font-size: 60px;
+}
+.taskEntryForm {
+  margin-left:170px;
+  margin-top:20px;
+  width:100px;
+}
+.taskList {
+  width:132px;
+  height:180px;
+  margin-left:150px;
+  list-style:none;
+}
+li {
+  border:1px solid black;
+  background:white;
+  margin-top:2px;
+  width:130px;
+}
+.divUl {
+  overflow-x:hidden;
+}
+#boxes[type="checkbox"]:checked + lable{
+  color: gray;
+  text-decoration: line-through;
+}
+.del {
+  opacity:0;
+  margin-left:10px;
+}
+li:hover .del {
+  margin-left:10px;
+  opacity:1;
+  color:red;
+  cursor:pointer;
+  transition: 1s;
+}
+.buttons {
+  margin-left:142px;
+  margin-top:30px;
+}
+.buttons a {
+  margin-left:10px;
+  text-decoration:none;
+  color:black;
+  padding:1px;
+  text-align:center;
+}
+#divDeleteEnd {
+  position:fixed;
+  margin-left:390px;
+  visibility:hidden;
+  margin-top:-25px;
+}
+#deleteEnd {
+  border:1px solid #5F9EA0;
+  background: #DCDCDC;
+}
+#deleteEnd:hover {
+  border: 1px solid #efefef;
+}
+#alls {
+  border:1px solid #FA8072;
+  border-radius:5px;
+}
+#active {
+  border:1px solid #efefef;
+  border-radius:5px;
+}
+#end {
+  border:1px solid #efefef;
+  border-radius:5px;
+}
+.divUl::-webkit-scrollbar { width: 0; }
+::-webkit-input-placeholder {font-style:italic;}

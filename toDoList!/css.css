@@ -4,7 +4,7 @@
   margin-top:30px;
   width:500px;
   height:400px;
-  background:#efefef;
+  background:#f5f5f5;
 }
 header {
   text-align:center;
@@ -75,11 +75,11 @@ li:hover .del {
   border-radius:5px;
 }
 #active {
-  border:1px solid #efefef;
+  border:1px solid #f5f5f5;
   border-radius:5px;
 }
 #end {
-  border:1px solid #efefef;
+  border:1px solid #f5f5f5;
   border-radius:5px;
 }
 .divUl::-webkit-scrollbar { width: 0; }

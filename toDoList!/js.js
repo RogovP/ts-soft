@@ -24,8 +24,8 @@ $(".del").on("click", function (event) {
 });
 
 function end() {
-  $("#active").css({"border":"1px solid #efefef"});
-  $("#alls").css({"border":"1px solid #efefef"});
+  $("#active").css({"border":"1px solid #f5f5f5"});
+  $("#alls").css({"border":"1px solid #f5f5f5"});
   $("#end").css({"border":"1px solid #FA8072"});
   var list = $(".taskList");
   var children = list.children();
@@ -40,8 +40,8 @@ function end() {
 }
 function active() {
   $("#active").css({"border":"1px solid #FA8072"});
-  $("#alls").css({"border":"1px solid #efefef"});
-  $("#end").css({"border":"1px solid #efefef"});
+  $("#alls").css({"border":"1px solid #f5f5f5"});
+  $("#end").css({"border":"1px solid #f5f5f5"});
   var list = $(".taskList");
   var children = list.children();
   for (var i =0;i<children.length;i++){
@@ -54,9 +54,9 @@ function active() {
   }
 }
 function alls(){
-  $("#active").css({"border":"1px solid #efefef"});
+  $("#active").css({"border":"1px solid #f5f5f5"});
   $("#alls").css({"border":"1px solid #FA8072"});
-  $("#end").css({"border":"1px solid #efefef"});
+  $("#end").css({"border":"1px solid #f5f5f5"});
   var list = $(".taskList");
   var children = list.children();
   for (var i =0;i<children.length;i++){

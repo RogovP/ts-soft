@@ -1,0 +1,16 @@
+
+.sub-menu 
+{ 
+   display: none;
+   list-style: none;
+   width: 80px;
+} 
+.menuDown {
+  text-decoration: none;
+  color: black;
+}
+.main-item:focus ~ .sub-menu, 
+.sub-menu:hover 
+{ 
+   display: block; 
+} 

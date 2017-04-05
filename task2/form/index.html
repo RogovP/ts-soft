@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="css.css">
+ </head>
+ <body>
+<form>
+      <div class="formValide">
+        <div class="zagolovok"><b>Бесплатно зарегистрироваться</b></div> 
+  <div class="komponovka">
+      <div class="textMenu">
+        <div class="textValidForm"> E - mail:</div>
+        <div class="downText"></div>
+        <div class="textValidForm"> Логин:</div>
+        <div class="downText"></div>
+        <div class="textValidForm"> Пароль:</div>
+        <div class="downText"> </div>
+    </div>
+      <div class="polya">
+        <div class="onFormValide">
+            <input style="height: 20px;" class="textValide" type="e-mail" pattern="[^ @]*@[^ @]*" required/>
+         </div>
+        <div class="downText">Нигде не публикуется </div>
+        <div class="onFormValide">
+            <input style="height: 20px;" pattern="[A-Za-z-0-9_-]{3,15}" class="textValide" type="text" required/>
+        </div>
+        <div class="downText">3-15 символов: латинские буквы, цифры<br> знак подчёркивания (_) и дефис (-) </div>
+        <div class="onFormValide">
+            <input style="height: 20px;" class="textValide" type="password" pattern="[A-Za-z-0-9_]{6,24}" required/>
+        </div>
+        <div class="downText">От 6 до 24 символов. Допустимы латинские бкувы, <br> цифры и знак подчеркивания (_) </div>
+        <input class="subBut" type="submit" value="Зарегистрироваться"/>      
+      </div>
+  </div>
+      </div>
+</form>
+  </body>
+</html>

@@ -1,0 +1,57 @@
+[class*="Col-"] {
+  height: 200px;
+  text-align: center;
+  padding: 0.5%;
+  margin: 0.2%;
+  background: #3ab371;
+}
+.flexCol-6 {
+  flex: 6;
+}
+.flexCol-5 {
+  flex: 5;
+}
+.flexCol-4 {
+  flex: 4;
+}
+.flexCol-3 {
+  flex: 3;
+}
+.flexCol-2 { 
+  flex: 2;
+}
+.flexCol-1 {
+  flex: 1;
+}
+.flexRow {
+  display: flex;
+}
+.row {
+    width:100%;
+}
+[class*="col-"] {
+  text-align: center;
+  height: 200px;
+  padding: 0.5%;
+  margin-bottom: 0.5%;
+  margin-right: 0.5%;
+  background: lightgray;
+}
+.col-1 {
+  width: 16.5%;
+}
+.col-2 {
+  width: 33%;
+}
+.col-3 {
+  width: 49.5%;
+}
+.col-4 {
+  width: 66%;
+}
+.col-5 {
+  width: 82.5%;
+}
+*, *:after, *:before {
+  box-sizing: border-box;
+}

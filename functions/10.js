@@ -1,10 +1,8 @@
 function consecutive(mas) {
   var num=[];
-  var maxNum = 1;
-  var minNum = mas[0];
   
-  minNum = Math.min.apply(null, mas);
-  maxNum = Math.max.apply(null, mas);
+  var minNum = Math.min.apply(null, mas);// использую apply, т.к. он принимает массив, в отличии от call, который принимает список аргументов
+  var maxNum = Math.max.apply(null, mas);
   
   for (minNum; minNum < maxNum + 1; minNum++) {
      num.push(minNum);

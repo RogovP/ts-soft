@@ -1,16 +1,16 @@
-function Vector(x, y) { //создаем конструктор "Vector"
+function Vector(x, y) { 
   this.x = x;
   this.y = y;
 }
 
 Vector.prototype.plus = function (some) {
-    var x = this.x + some.x; //this ссылается на конструктор "Vector"
+    var x = this.x + some.x; 
     var y = this.y + some.y;
   return ("Vector{x: " + x + ", " + "y:" + y + "}");
 }
 
 Vector.prototype.minus = function (some) {
-    var x = this.x - some.x;//this ссылается на конструктор "Vector"
+    var x = this.x - some.x;
     var y = this.y - some.y;
   return ("Vector{x: " + x + ", " + "y:" + y + "}");
 }

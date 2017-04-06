@@ -1,7 +1,7 @@
 function flatten(arrays) {
   
 return arrays.reduce(function (s, i) {
-  
+  // с помощью callback функции метода reduce "склеиваем" промежуточный результат с текущим значением
     return s.concat(i);
 });
   

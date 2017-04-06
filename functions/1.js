@@ -1,11 +1,11 @@
-function tre (a) {
+function triangle (kolStr) {
   var br = "\n";
   var result = "";
   
-  for (var star = "#"; star.length <= a; star += "#") {
+  for (var star = "#"; star.length <= kolStr; star += "#") {
     result = result + br + star;
   }
   
   return result;
 }
-console.log( tre(7) );
+console.log( triangle(7) );

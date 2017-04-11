@@ -58,16 +58,6 @@
   z-index:100;
   transform:rotateZ(45deg);
 }
-.sectorTwo:after{
-  content:' ';
-  display:block;
-  position:absolute;
-  width:0;
-  border:50px solid transparent;
-  border-radius:100%;
-  border-left:50px solid #e7e7e7;
-  transform:rotateZ(45deg);
-}
 .circleTwo{
   margin-left: 120px;
   margin-top: -100px;
@@ -83,7 +73,9 @@
   width:0;
   border:50px solid transparent;
   border-radius:100%;
+  top:382px;
   border-left:50px solid #4bb5c1;
+  z-index: 101;
   transform:rotateZ(-24deg);
 }
 .backCircleTwo {
